@@ -1,19 +1,8 @@
-## Summary
+## 变更说明
+<!-- 简单说明本次 Pull Request 修改了什么，以及修改原因。 -->
 
-<!-- Briefly describe what this Pull Request changes and why. -->
-
-
-## Changes
-
-<!-- List the main changes included in this Pull Request. -->
-
-- 
-
-
-## Impact
-
-Check all that apply:
-
+## 影响范围
+请选择所有适用项目：
 - [ ] API / Backend
 - [ ] Frontend
 - [ ] Database
@@ -22,78 +11,40 @@ Check all that apply:
 - [ ] Configuration
 - [ ] Infrastructure / CI/CD
 - [ ] Documentation
-- [ ] No significant external impact
 
+## Breaking Change
+- [ ] 本次修改包含 Breaking Change
 
-## Breaking Changes
-
-- [ ] This Pull Request contains breaking changes.
-
-If yes, describe the breaking changes and required migration steps:
-
+如有，请说明影响范围及 Migration 方式：
 N/A
 
+## Database 变更
+- [ ] Database Schema 有修改
+- [ ] Stored Procedure 有修改
+- [ ] Index / Constraint 有修改
+- [ ] 需要 Data Migration
+- [ ] 无 Database 变更
 
-## Database Changes
-
-- [ ] Database schema changed
-- [ ] Stored Procedure changed
-- [ ] Index / Constraint changed
-- [ ] Data migration required
-- [ ] No database changes
-
-Database deployment notes:
-
-N/A
-
-
-## Configuration Changes
-
-- [ ] Application configuration changed
-- [ ] Environment variable added or changed
-- [ ] Secret / credential configuration required
-- [ ] No configuration changes
-
-Configuration notes:
-
-N/A
-
-
-## Testing
-
-Describe how this change was tested:
-
-- [ ] Local testing completed
-- [ ] Unit tests completed
-- [ ] Integration tests completed
-- [ ] Staging testing completed
-- [ ] Not applicable
-
-Additional testing notes:
-
-N/A
-
+## 测试
+- [ ] Local Test 已完成
+- [ ] Unit Test 已完成
+- [ ] Integration Test 已完成
+- [ ] Staging Test 已完成
+- [ ] 不适用
 
 ## Deployment
-
-- [ ] Can be deployed independently
-- [ ] Requires a specific deployment order
-- [ ] Requires database deployment
-- [ ] Requires package update
-- [ ] Requires configuration change
-- [ ] Requires service restart
-- [ ] No special deployment requirements
-
-Deployment notes:
-
-N/A
-
+- [ ] 可以独立 Deployment
+- [ ] 有指定 Deployment 顺序
+- [ ] 需要先 Deployment Database
+- [ ] 需要更新 NuGet Package
+- [ ] 需要修改 Configuration
+- [ ] 需要 Restart Service
+- [ ] 无特殊 Deployment 要求
 
 ## Checklist
-
-- [ ] I have reviewed my own changes.
-- [ ] I have not committed passwords, API keys, tokens, connection strings, or other secrets.
-- [ ] I have considered backward compatibility.
-- [ ] I have considered error handling.
-- [ ] I have updated relevant documentation where necessary.
-- [ ] I have added or updated tests where appropriate.
+- [ ] 我已经自行 Review 本次修改
+- [ ] 没有 Commit Password、API Key、Token、Connection String 或其他 Secret
+- [ ] 已确认 Backward Compatibility
+- [ ] 已检查 Error Handling
+- [ ] 必要的 Documentation 已更新
+- [ ] 必要的 Test 已新增或更新
