@@ -11,12 +11,15 @@
 - [ ] Configuration
 - [ ] Infrastructure / CI/CD
 - [ ] Documentation
+- [ ] 无明显外部影响
+
 
 ## Breaking Change
 - [ ] 本次修改包含 Breaking Change
 
 如有，请说明影响范围及 Migration 方式：
 N/A
+
 
 ## Database 变更
 - [ ] Database Schema 有修改
@@ -25,14 +28,35 @@ N/A
 - [ ] 需要 Data Migration
 - [ ] 无 Database 变更
 
+如有，请说明 Database 变更及 Deployment 顺序：
+N/A
+
+
+## Configuration 变更
+- [ ] Application Configuration 有修改
+- [ ] Environment Variable 有新增或修改
+- [ ] Secret / Credential Configuration 有新增或修改
+- [ ] External Service / Provider Configuration 有修改
+- [ ] 无 Configuration 变更
+
+如有，请说明需要配置的项目：
+N/A
+
+
 ## 测试
+请选择已经完成的测试：
 - [ ] Local Test 已完成
 - [ ] Unit Test 已完成
 - [ ] Integration Test 已完成
 - [ ] Staging Test 已完成
 - [ ] 不适用
 
+测试说明：
+N/A
+
+
 ## Deployment
+请选择所有适用项目：
 - [ ] 可以独立 Deployment
 - [ ] 有指定 Deployment 顺序
 - [ ] 需要先 Deployment Database
@@ -41,10 +65,16 @@ N/A
 - [ ] 需要 Restart Service
 - [ ] 无特殊 Deployment 要求
 
+如有特殊 Deployment Requirement，请说明：
+N/A
+
+
 ## Checklist
 - [ ] 我已经自行 Review 本次修改
 - [ ] 没有 Commit Password、API Key、Token、Connection String 或其他 Secret
 - [ ] 已确认 Backward Compatibility
+- [ ] 已确认 API / Package Compatibility
 - [ ] 已检查 Error Handling
+- [ ] 已考虑 Database / Transaction 影响
 - [ ] 必要的 Documentation 已更新
 - [ ] 必要的 Test 已新增或更新
