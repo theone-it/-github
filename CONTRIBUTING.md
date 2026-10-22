@@ -47,6 +47,7 @@ Repository 名称统一使用小写字母，并使用 `-` 分隔不同部分。
 目前使用的 Category：
 - `GP` — Game Provider
 - `PG` — Payment Gateway
+- `PP` — Payment Provider
 
 新增 Category 时，应先确定统一的 Category 缩写，避免不同 Repository 对相同类型使用不同名称。
 
